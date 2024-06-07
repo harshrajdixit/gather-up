@@ -822,7 +822,8 @@ header {
         /* color: #a7a7a7; */
 
         margin-top: 30px;
-        margin-bottom: 370px;
+        /* margin-bottom: 370px; */
+        margin-bottom: 335px;
         font-family: "Poetsen One", sans-serif;
     }
 }
