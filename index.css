@@ -712,7 +712,7 @@ header {
 
     .nav-menu {
         position: absolute;
-        top: -35cm;
+        top: -50cm;
         display: flex;
         justify-content: center;
         background: rgba(255, 255, 255, 0.2);
@@ -785,6 +785,7 @@ header {
         position: absolute;
 
         left: 8%;
+        /* right: 3%; */
 
         width: 350px;
         top: 39%;
@@ -831,7 +832,7 @@ header {
 
 /*------------------------------------ responsive for ipad mini----------------------------------------- */
 
-@media (width: 768px) {
+@media(min-width: 540px) and (max-width: 770px) {
     .wrapper {
         min-height: 100vh;
         width: 100%;
@@ -842,7 +843,8 @@ header {
     .illustration {
         position: absolute;
 
-        left: 30%;
+        /* left: 30%; */
+        left: 5%;
 
         width: 520px;
         top: 36%;
@@ -879,7 +881,8 @@ header {
 
         /* color: #153448; */
         margin-top: 20px;
-        margin-bottom: 420px;
+        /* margin-bottom: 420px; */
+        margin-bottom: 550px;
         font-family: "Poetsen One", sans-serif;
     }
 
@@ -919,7 +922,7 @@ header {
 
 /*------------------------------------ responsive for ipad air----------------------------------------- */
 
-@media (width: 820px) {
+@media (min-width: 770px) and (max-width: 900px){
 
     .nav-button {
         display: none;
@@ -1103,7 +1106,7 @@ background-color: #ffffff9c;
 
 /*------------------------------------ responsive for ipad pro----------------------------------------- */
 
-@media (width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1080px) {
 
     .nav-button {
         display: none;
@@ -1287,7 +1290,7 @@ background-color: #ffffff9c;
 
 /*------------------------------------ responsive for surface pro 7----------------------------------------- */
 
-@media (width: 912px) {
+@media (min-width: 900px) and (max-width: 1024px) {
 
     .nav-button {
         display: none;

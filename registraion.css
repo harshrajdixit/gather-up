@@ -27,6 +27,108 @@ body {
    
 } */
 
+.nav {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 70px;
+    line-height: 75px;
+    box-shadow: 3px 3px 10px #dedede;
+    /* background-color: #153448; */
+    /* background-color: #121212; */
+    background-color: #ffff;
+    z-index: 100;
+    /* border: 2px solid red; */
+}
+
+.nav-logo p {
+    position: absolute;
+    /* color: white; */
+    color: #000000;
+    font-size: 25px;
+    font-weight: 600;
+    /* border: 2px solid rgb(0, 255, 72); */
+    /* margin-right: 5%; */
+    left: 5%;
+    /* margin-left: 0px; */
+}
+
+.nav-menu ul {
+    display: flex;
+    position: absolute;
+    left: 37%;
+}
+
+.nav-menu ul .mob_li {
+    display: none;
+}
+
+.nav-menu ul li {
+    list-style-type: none;
+}
+
+.nav-menu ul li .link {
+    text-decoration: none;
+    font-weight: 500;
+    /* color: #fff; */
+    color: #787878;
+    padding-bottom: 15px;
+    margin: 0 25px;
+}
+
+.link:hover,
+.active {
+    border-bottom: 2px solid #787878;
+    /* border-bottom: 2px solid #fff; */
+}
+
+.nav-button {
+    position: absolute;
+    right: 5%;
+}
+
+.nav-button .btn {
+
+    /* width: 130px; */
+    margin-left: 40px;
+
+    font-size: 16px;
+
+    height: 40px;
+    font-weight: 500;
+    background-color: transparent;
+    /* color: #fff; */
+    color: #787878;
+    border: none;
+    /* border-radius: 30px; */
+    cursor: pointer;
+    /* transition: .3s ease; */
+}
+
+.btn:hover {
+    border-bottom: 2px solid #787878;
+    /* border-bottom: 2px solid white; */
+}
+
+#registerBtn {
+    margin-left: 15px;
+    /* visibility: hidden; */
+}
+
+.btn.white-btn {
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.btn.btn.white-btn:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.nav-menu-btn {
+    display: none;
+}
 
 
 .illustration{
@@ -35,10 +137,20 @@ body {
     margin-left: 125px;
 }
 
+.illu-quoat-heading{
+    color: #474545;
+    font-size: 37px;
+    margin-bottom: 7px;
+    font-weight: 800;
+}
+
+.illu-quoat-para{
+    color: #474545;
+}
 .login-container {
     position: absolute;
     left: 55%;
-    top: 2%;
+    top: 13%;
     /* bottom: 2%; */
   margin: auto;
   margin-bottom: 10p;
@@ -172,8 +284,12 @@ header {
 
 
 @media only screen and (max-width: 786px) {
+    .nav{
+        display: none;
+    }
     .nav-button {
         display: none;
+
     }
     .illustration{
         
@@ -217,6 +333,7 @@ header {
 }
 
 @media only screen and (max-width: 540px) {
+    
     .wrapper {
         min-height: 100vh;
     }
@@ -291,6 +408,9 @@ header {
 /*------------------------------------ responsive for ipad air----------------------------------------- */
 
 @media (width: 820px) {
+    .nav{
+        display: none;
+    }
     .illustration{
         
         display: none;
@@ -318,6 +438,9 @@ header {
 /*------------------------------------ responsive for ipad pro----------------------------------------- */
 
 @media (width: 1024px) {
+    .nav{
+        display: none;
+    }
     .illustration{
         
         display: none;
@@ -347,6 +470,9 @@ header {
 /*------------------------------------ responsive for surface pro 7----------------------------------------- */
 
 @media (width: 912px) {
+    .nav{
+        display: none;
+    }
 
   .illustration{
         
