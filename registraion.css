@@ -260,6 +260,13 @@ header {
     gap: 5px;
 }
 
+.dont-account{
+    color: inherit;
+    text-decoration: none;
+}
+.dont-account .dec-none{
+ text-decoration: underline;   
+}
 .two label a {
     text-decoration: none;
     color: #121212;
