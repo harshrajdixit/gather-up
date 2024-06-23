@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: #000000;
+    background-color: #121212;
 }
 
 
@@ -216,7 +216,7 @@ body {
     /* border: 2px solid red; */
     display: flex;
     height: 20cm;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 
     flex-wrap: wrap;
@@ -235,8 +235,12 @@ body {
 
 .page_img {
     /* border: 2px solid rgb(132, 119, 205); */
-    width: 400px;
+    width: fit-content;
+    border-radius: 30px;
+    /* height: 400px; */
+    overflow: hidden;
 }
+
 
 .page_description {
     /* border: 2px solid rgb(102, 177, 118); */
@@ -260,17 +264,20 @@ body {
 
 .page_head {
     /* border: 2px solid rgb(28, 31, 32); */
-    width: 100%;
+    width: 90%;
     font-size: 34px;
     font-weight: 500;
     margin-bottom: 20px;
+    /* text-align: justify; */
+   
 
 }
 
 .page_para {
     /* border: 2px solid rgb(176, 199, 101); */
     font-size: 17px;
-    width: 65%;
+    width: 90%;
+    /* text-align: justify; */
 }
 
 .ending_button {

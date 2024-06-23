@@ -544,10 +544,10 @@ header {
 }
 .solution_button{
     width: 160px;
+    background-color: transparent;
     font-size: 14px;
     font-weight: 600;
     color: #202020;
-    background-color: transparent;
     cursor: pointer;
     margin: 20px;
     height: 44px;
