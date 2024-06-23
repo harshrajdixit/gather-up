@@ -724,9 +724,11 @@ body {
     }
     .third_page{
         margin-bottom: 35px;
+        height: 15cm;
     }
     .second_page{
-        margin-bottom: 35px;
+        margin-bottom:110px;
+        height: 15cm;
     }
     .page_para {
         
