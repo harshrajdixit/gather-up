@@ -11,6 +11,7 @@
 
 body {
     background-color: #ffffff;
+    
 }
 
 
@@ -747,7 +748,7 @@ header {
 
 .upbutton{
    position: fixed;
-   top: 90vh;
+   top: 92vh;
    right: 4%;
 }
 .buttonup {
