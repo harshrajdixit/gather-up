@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: #121212;
+    background-color: #ffffff;
 }
 
 
@@ -245,7 +245,7 @@ body {
 .page_description {
     /* border: 2px solid rgb(102, 177, 118); */
     display: flex;
-    color: #ffffff;
+    color: #121212;
     flex-wrap: wrap;
     width: 50%;
     /* height: 100px; */
@@ -256,7 +256,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #ffffff;
+    color: #121212;
     flex-wrap: wrap;
     width: 60%;
     /* height: 100px; */
@@ -284,13 +284,13 @@ body {
     width: 160px;
     font-size: 14px;
     font-weight: 600;
-    color: #ffffff;
+    color: #121212;
     background-color: transparent;
     cursor: pointer;
     margin: 20px;
     height: 44px;
     text-align: center;
-    border: 2px solid #ffffff;
+    border: 2px solid #121212;
     /* border: none; */
     background-size: 300% 100%;
 
@@ -301,13 +301,13 @@ body {
     width: 160px;
     font-size: 14px;
     font-weight: 600;
-    color: #000000;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #121212;
     cursor: pointer;
     margin: 20px;
     height: 44px;
     text-align: center;
-    border: 2px solid #ffffff;
+    border: 2px solid #121212;
     /* border: none; */
     background-size: 300% 100%;
     transition: .5s;

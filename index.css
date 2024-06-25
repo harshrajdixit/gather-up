@@ -480,7 +480,7 @@ header {
 }
 
 .solution_contents:hover {
-    width: 440px;
+    width: 330px;
     /* height: 440px; */
     background-color: #d7dada;
     box-shadow: 2px 2px 30px rgb(77, 77, 77);
@@ -744,6 +744,73 @@ header {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*---------------------------------------------------------------------- upper go button css */
 
 .upbutton{
@@ -808,6 +875,124 @@ header {
     transition-duration: 0.3s;
   }
   
+/*--------------------------------------------- log out buttton */
+.Btnout {
+    --black: #000000;
+    --ch-black: #141414;
+    --eer-black: #1b1b1b;
+    --night-rider: #2e2e2e;
+    --white: #ffffff;
+    --af-white: #f3f3f3;
+    --ch-white: #e1e1e1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition-duration: .3s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+    background-color: var(--night-rider);
+  }
+  
+  /* plus sign */
+  .sign {
+    width: 100%;
+    transition-duration: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sign svg {
+    width: 17px;
+  }
+  
+  .sign svg path {
+    fill: var(--af-white);
+  }
+  /* text */
+  .text {
+    position: absolute;
+    right: 0%;
+    width: 0%;
+    opacity: 0;
+    color: var(--af-white);
+    font-size: 1.2em;
+    font-weight: 600;
+    transition-duration: .3s;
+  }
+  /* hover effect on button width */
+  .Btnout:hover {
+    width: 125px;
+    border-radius: 5px;
+    transition-duration: .3s;
+  }
+  
+  .Btnout:hover .sign {
+    width: 30%;
+    transition-duration: .3s;
+    padding-left: 20px;
+  }
+  /* hover effect button's text */
+  .Btnout:hover .text {
+    opacity: 1;
+    width: 70%;
+    transition-duration: .3s;
+    padding-right: 10px;
+  }
+  /* button click effect*/
+  .Btnout:active {
+    transform: translate(2px ,2px);
+  }
+  .logaft{
+    display: none;
+    position: absolute;
+    right: 4%;
+    top: 25%;
+  }
+  .logbf{
+    display: block;
+
+  }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -869,6 +1054,11 @@ header {
     .nav-button {
         display: none;
     }
+    
+    
+    .logaft{
+        display: none;
+    }
 
     .nav {
         z-index: 999;
@@ -882,6 +1072,10 @@ header {
     .nav-menu ul .mob_li {
         display: block;
         color: rgba(76, 76, 76, 0.2);
+    }
+    .nav-menu ul .logmobaft {
+        display: none;
+       
     }
 
     .nav-menu ul .mob_li .mob_li_a {
@@ -1153,6 +1347,13 @@ header {
 
     .nav-button {
         display: none;
+    }
+    .logaft{
+        display: none;
+    }
+    .nav-menu ul .logmobaft {
+        display: none;
+       
     }
 
     .nav {
@@ -1595,6 +1796,13 @@ header {
 
     .nav-button {
         display: none;
+    }
+    .logaft{
+        display: none;
+    }
+    .nav-menu ul .logmobaft {
+        display: none;
+       
     }
 
     .nav {

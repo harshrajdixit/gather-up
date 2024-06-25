@@ -9,23 +9,11 @@
 }
 
 body {
-    /* background-image: url("images/bg2.jpg"); */
     background-color: #ffff;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-   
 }
-
-/* .wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 110vh;
-    background: rgba(39, 39, 39, 0.4);
-
-   
-} */
 
 .nav {
     position: fixed;
@@ -37,23 +25,16 @@ body {
     height: 70px;
     line-height: 75px;
     box-shadow: 3px 3px 10px #dedede;
-    /* background-color: #153448; */
-    /* background-color: #121212; */
     background-color: #ffff;
     z-index: 100;
-    /* border: 2px solid red; */
 }
 
 .nav-logo p {
     position: absolute;
-    /* color: white; */
     color: #000000;
     font-size: 25px;
     font-weight: 600;
-    /* border: 2px solid rgb(0, 255, 72); */
-    /* margin-right: 5%; */
     left: 5%;
-    /* margin-left: 0px; */
 }
 
 .nav-menu ul {
@@ -73,7 +54,6 @@ body {
 .nav-menu ul li .link {
     text-decoration: none;
     font-weight: 500;
-    /* color: #fff; */
     color: #787878;
     padding-bottom: 15px;
     margin: 0 25px;
@@ -82,7 +62,6 @@ body {
 .link:hover,
 .active {
     border-bottom: 2px solid #787878;
-    /* border-bottom: 2px solid #fff; */
 }
 
 .nav-button {
@@ -91,60 +70,42 @@ body {
 }
 
 .nav-button .btn {
-
-    /* width: 130px; */
     margin-left: 40px;
-
     font-size: 16px;
-
     height: 40px;
     font-weight: 500;
     background-color: transparent;
-    /* color: #fff; */
     color: #787878;
     border: none;
-    /* border-radius: 30px; */
     cursor: pointer;
-    /* transition: .3s ease; */
 }
 
 .btn:hover {
     border-bottom: 2px solid #787878;
-    /* border-bottom: 2px solid white; */
 }
 
 #registerBtn {
     margin-left: 15px;
-    /* visibility: hidden; */
-}
-
-.btn.white-btn {
-    background: rgba(255, 255, 255, 0.7);
-}
-
-.btn.btn.white-btn:hover {
-    background: rgba(255, 255, 255, 0.5);
 }
 
 .nav-menu-btn {
     display: none;
 }
 
-
-.illustration{
+.illustration {
     width: 500px;
     margin-top: 115px;
     margin-left: 75px;
 }
 
-.illu-quoat-heading{
+.illu-quoat-heading {
     color: #474545;
     font-size: 37px;
     margin-bottom: 7px;
     font-weight: 800;
 }
 
-.illu-quoat-para{
+.illu-quoat-para {
     color: #474545;
 }
 
@@ -152,9 +113,7 @@ body {
     position: absolute;
     left: 55%;
     top: 17%;
-    /* bottom: 2%; */
-  margin: auto;
-  margin-bottom: 10p;
+    margin: auto;
     padding: 2%;
     width: 40%;
     background-color: gainsboro;
@@ -186,7 +145,6 @@ body {
     color: #fff;
     margin-left: 5px;
 }
-
 
 header {
     color: #121212;
@@ -262,8 +220,6 @@ header {
     gap: 5px;
 }
 
-
-
 .two label a {
     text-decoration: none;
     color: #121212;
@@ -272,41 +228,49 @@ header {
 .two label a:hover {
     text-decoration: underline;
 }
-.google{
-  position: absolute;
-    /* right: 10%; */
+
+.google-signin-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
 
-.fa-user-tie{
-    opacity: 0;
+.custom-google-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.request_area{
-    padding-top: 5px;
-    height: 100px;
+
+.custom-google-btn .fab.fa-google {
+    color: #0c0101;
 }
 
-
-
-
-
-
+.custom-google-btn:focus {
+    outline: none;
+}
 
 @media only screen and (max-width: 786px) {
-    .nav{
+    .nav {
         display: none;
     }
+
     .nav-button {
         display: none;
     }
-    .illustration{
-        
+
+    .illustration {
         display: none;
-        
-        
     }
+
     .nav-menu.responsive {
         top: 100px;
     }
+
     .nav-menu {
         position: absolute;
         top: -800px;
@@ -318,13 +282,16 @@ header {
         backdrop-filter: blur(20px);
         transition: .3s;
     }
+
     .nav-menu ul {
         flex-direction: column;
         text-align: center;
     }
+
     .nav-menu-btn {
         display: block;
     }
+
     .nav-menu-btn i {
         font-size: 25px;
         color: #fff;
@@ -334,6 +301,7 @@ header {
         cursor: pointer;
         transition: .3s;
     }
+
     .nav-menu-btn i:hover {
         background: rgba(255, 255, 255, 0.15);
     }
@@ -343,195 +311,107 @@ header {
     .wrapper {
         min-height: 100vh;
     }
-    body{
+
+    body {
         overflow: hidden;
         overflow-y: scroll;
     }
-    .illustration{
-        
+
+    .illustration {
         display: none;
-        
-        
     }
+
     .form-box {
         width: 100%;
         position: absolute;
         left: -15%;
-       
         height: 500px;
     }
+
     .register-container,
     .login-container {
         width: 100%;
         padding: 0 20px;
     }
+
     .register-container .two-forms {
         flex-direction: column;
         gap: 0;
     }
+
     .login-container {
-        /* position: absolute; */
         left: 20%;
         top: 10%;
-        /* bottom: 2%; */
-      margin: auto;
-      margin-bottom: 10p;
+        margin: auto;
         padding: 2%;
         width: 90%;
-        background-color:transparent;
+        background-color: transparent;
         border-radius: 20px;
         display: flex;
         flex-direction: column;
         transition: .5s ease-in-out;
     }
 }
-
-
-
-
-
-/*------------------------------------ responsive for ipad mini----------------------------------------- */
 
 @media (width: 768px) {
-    .nav{
+    .nav {
         display: none;
     }
+
     .login-container {
-        /* position: absolute; */
         left: 5%;
         top: 10%;
-        /* bottom: 2%; */
-      margin: auto;
-      margin-bottom: 10p;
+        margin: auto;
         padding: 2%;
         width: 90%;
-        background-color:transparent;
+        background-color: transparent;
         border-radius: 20px;
         display: flex;
         flex-direction: column;
         transition: .5s ease-in-out;
     }
-
 }
-
-/*------------------------------------ responsive for ipad air----------------------------------------- */
 
 @media (width: 820px) {
-    .nav{
+    .nav {
         display: none;
     }
-    .illustration{
-        
+
+    .illustration {
         display: none;
-        
-        
     }
+
     .login-container {
-        /* position: absolute; */
         left: 5%;
         top: 10%;
-        /* bottom: 2%; */
-      margin: auto;
-      margin-bottom: 10p;
+        margin: auto;
         padding: 2%;
         width: 90%;
-        background-color:transparent;
+        background-color: transparent;
         border-radius: 20px;
         display: flex;
         flex-direction: column;
         transition: .5s ease-in-out;
     }
-   
 }
-
-/*------------------------------------ responsive for ipad pro----------------------------------------- */
 
 @media (width: 1024px) {
-    .nav{
+    .nav {
         display: none;
     }
-    .illustration{
-        
+
+    .illustration {
         display: none;
-        
-        
     }
     .login-container {
-        /* position: absolute; */
         left: 5%;
         top: 10%;
-        /* bottom: 2%; */
-      margin: auto;
-      margin-bottom: 10p;
+        margin: auto;
         padding: 2%;
         width: 90%;
-        background-color:transparent;
+        background-color: transparent;
         border-radius: 20px;
         display: flex;
         flex-direction: column;
-        transition: .5s ease-in-out;
     }
-    
-
-  
-}
-
-/*------------------------------------ responsive for surface pro 7----------------------------------------- */
-
-@media (width: 912px) {
-    .nav{
-        display: none;
-    }
-
-  .illustration{
-        
-        display: none;
-        
-        
-    }
-    .login-container {
-        /* position: absolute; */
-        left: 5%;
-        top: 10%;
-        /* bottom: 2%; */
-      margin: auto;
-      margin-bottom: 10p;
-        padding: 2%;
-        width: 90%;
-        background-color:transparent;
-        border-radius: 20px;
-        display: flex;
-        flex-direction: column;
-        transition: .5s ease-in-out;
-    }
-    
-    
-}
-
-/*------------------------------------ responsive for ASUS Zenbook fold----------------------------------------- */
-/* @media (width: 853px ) {
-    
-}   */
-
-/* ------------------------------------------responsive for iphone SE ---------------------------*/
-
-@media (max-width: 380px) {
-    
-
-}
-
-/* ------------------------------------------responsive for Z fold 5 ---------------------------*/
-
-@media (width: 344px) {
-    
-
-
-}
-
-/* ------------------------------------------responsive for  surface duo ---------------------------*/
-
-@media (width: 540px) {
-    
-
-  
 }
