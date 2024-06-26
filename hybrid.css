@@ -705,7 +705,7 @@ body {
     .page_description {
        
         display: flex;
-        color: #ffffff;
+        color: #121212;
         flex-wrap: wrap;
         width: 100%;
         justify-content: center;
@@ -715,7 +715,7 @@ body {
     .third_page_description {
         
         display: flex;
-        color: #ffffff;
+        color: #121212;
         flex-wrap: wrap;
         width: 100%;
         justify-content: center;
@@ -727,6 +727,7 @@ body {
         height: 15cm;
     }
     .second_page{
+        margin-top: 50px;
         margin-bottom:110px;
         height: 15cm;
     }
@@ -1579,7 +1580,7 @@ body {
     .landing_para {
 
         font-size: 12px;
-        margin-bottom: 310px;
+        margin-bottom: 345px;
     }
 
     .landing_button {
